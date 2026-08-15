@@ -1,0 +1,9 @@
+#include<stdio.h>
+void main(){
+int i=1;
+printf("\n The table of 2 is:\n");
+while (i<=10) {
+printf("\n 2×%d is: %d",i,i*2);
+i++;
+}
+}
